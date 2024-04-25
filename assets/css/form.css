@@ -1,0 +1,12 @@
+#formContainer {
+    padding: 20px;
+    border-radius: 100px;
+}
+
+#formContainer h2 {
+    margin-top: 0;
+}
+
+#formMessage {
+    color: red;
+}

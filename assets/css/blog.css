@@ -1,0 +1,22 @@
+/* Styles for the form for creating new blog posts */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+form button[type="submit"] {
+    width: 100%;
+}

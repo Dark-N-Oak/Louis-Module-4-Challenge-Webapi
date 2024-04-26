@@ -1,5 +1,5 @@
 # Louis-Module-4-Webapi
-I was tasked with creating
+I was tasked with creating a blog to post on my progress of becoming a web developer. I have created a form that accepts input and outputs it to a new page in a neat row. I also made sure to implement a darkmode. Lastly I made sure to leave the code better than I found it.
 
 ## What's Included
 Assets Folder containing:

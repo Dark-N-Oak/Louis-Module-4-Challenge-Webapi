@@ -1,4 +1,3 @@
-// Logic specific to the form for creating new blog posts
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('blogForm');
     const formMessage = document.getElementById('formMessage');

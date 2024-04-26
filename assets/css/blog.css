@@ -1,4 +1,3 @@
-/* Styles for the form for creating new blog posts */
 label {
     display: block;
     margin-bottom: 5px;
@@ -9,7 +8,7 @@ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     border-radius: 5px;
 }
 
@@ -17,6 +16,51 @@ textarea {
     resize: vertical;
 }
 
-form button[type="submit"] {
-    width: 100%;
+#backButton {
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#clearLocalStorageButton {
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#clearLocalStorageButton:hover {
+    background-color: red;
+}
+
+li {
+    
+    padding-left: 50px;
+    text-align: left;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.post h3 {
+    margin-top: 0;
+    border-bottom: 1px solid black;
+}
+
+.post p {
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.post h5 {
+    margin-bottom: 0;
+    color: gray;
 }

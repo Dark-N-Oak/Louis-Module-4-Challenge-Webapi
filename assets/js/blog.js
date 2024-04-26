@@ -1,3 +1,4 @@
+// This is where the output comes from
 document.addEventListener('DOMContentLoaded', function() {
     const postsContainer = document.getElementById('postsContainer');
 
@@ -8,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             postsContainer.innerHTML = '<p>Nothing here yet...</p>';
         } else {
             postsContainer.innerHTML = ''; 
-
+// Input information comes into here 
             posts.forEach(function(post) {
                 const postElement = document.createElement('div');
                 postElement.classList.add('post');
@@ -30,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
-
+// Clears Local storage because vscode is incapable or unwilling to delete local storage.
     function clearLocalStorage() {
         localStorage.removeItem('posts');
         renderBlogPosts(); 

@@ -1,3 +1,4 @@
+/* Output styling */
 label {
     display: block;
     margin-bottom: 5px;
@@ -14,6 +15,7 @@ textarea {
 
 textarea {
     resize: vertical;
+    background-color: white;
 }
 
 #backButton {

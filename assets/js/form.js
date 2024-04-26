@@ -1,3 +1,4 @@
+//This is where the forms take in the input
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('blogForm');
     const formMessage = document.getElementById('formMessage');
@@ -13,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             formMessage.textContent = 'Please complete all fields';
             return;
         }
-
+        // Input naming
         const post = {
             username: username,
             title: title,

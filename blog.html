@@ -12,11 +12,13 @@
         <h1>My Personal Blog</h1>
         <div>
         <button id="backButton">Back</button>
-        <button id="darkMode">☀️</button>
+        <button onclick="myFunction()" id="darkMode">☀️</button>
     </div>
     </header>
     <main>
+        <!--Where post will appear  -->
         <div id="postsContainer"></div>
+        <!-- Button for VScode because it cannot delete localstorage for some reason-->
         <button id="clearLocalStorageButton">Clear All</button>
     </main>
     <footer>
@@ -28,6 +30,6 @@
         </em>
     </footer>
     <script src="assets/js/blog.js"></script>
-    <script scr="assets/js/logic.js"></script>
+    <script src="assets/js/logic.js"></script>
 </body>
 </html>
